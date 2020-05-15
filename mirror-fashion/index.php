@@ -1,36 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<title>Mirror Fashion</title>
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/estilos.css">
-	<!--<link rel="stylesheet" type="text/css" href="less/estilos.less">-->
+	<?php 
+		$cabecalho_title = "Mirror Fashion";
+		include("cabecalho.php"); 
+	?>
 
-	<link href='http://fonts.googleapis.com/css?family=PT+Sans|Bad+Script' rel='stylesheet'>
-</head>
-<body>
-	<header class="container">
-		<!--[if	lt	IE	9]>
-			<script	src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-		<h1>
-			<a href="index.html"><img src="img/logo.png" alt="Logo da Mirror Fashion"></a>
-		</h1>
-		<p class="sacola">
-			Nenhum item na sacola de compras
-		</p>
-		<nav class="menu-opcoes">
-			<ul>
-				<li><a href="#">Sua Conta</a></li>
-				<li><a href="#">Lista de Desejos</a></li>
-				<li><a href="#">Cartão Fidelidade</a></li>
-				<li><a href="sobre.html">Sobre</a></li>
-				<li><a href="#">Ajuda</a></li>
-			</ul>
-		</nav>
-	</header>
 	<div class="container destaque">
 		<section class="busca">
 			<h2>Busca</h2>
@@ -322,16 +294,9 @@
 		<button type="button">Mostrar mais</button>
 		</section>
 	</div>
-	<footer>
-		<div class="container">
-			<img src="img/logo-rodape.png" alt="Logo da Mirror Fashion">
-			<ul class="social">
-				<li><a href="http://facebook.com/mirrorfashion">Facebook</a></li>
-				<li><a href="http://twitter.com/mirrorfashion">Twitter</a></li>
-				<li><a href="http://plus.google.com/mirrorfashion">Google+</a></li>
-			</ul>
-		</div>
-	</footer>
+
+	<?php include("rodape.php"); ?>
+	
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script	type="text/javascript" src="js/banner.js"></script>
 	<script type="text/javascript" src="js/home.js"></script>
